@@ -4,6 +4,8 @@ Software Tools: Code Composer Studio
 
 Hardware: MSP-EXP432E401Y Development Kit and BOOSTXL-AUDIO
 
+code file: uartecho.c
+
 Code Specifications:
 
     Developed a multi-microcontroller communication system using MSP-EXP432(ARM Cortex) boards and audio booster pack, enabling real-time conference calling with simultaneous voice transmission and receiving over Ethernet.
