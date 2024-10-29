@@ -1,0 +1,23 @@
+Project: Conference call using voice-over Ethernet.
+
+Software Tools: Code Composer Studio
+
+Hardware: MSP-EXP432E401Y Development Kit and BOOSTXL-AUDIO
+
+Code Specifications:
+
+    Developed a multi-microcontroller communication system using MSP-EXP432(ARM Cortex) boards and audio booster pack, enabling real-time conference calling with simultaneous voice transmission and receiving over Ethernet.
+
+     Programmed in Embedded C, leveraging advanced features such as semaphores, queues, stack management, timers, interrupts, ADC, UART, SPI, GPIO, PWM, UDP, and display drivers for precise control and synchronized operation across devices.
+
+    UART: To communicate between the display driver and the microcontroller.
+
+    Semaphores, queues, stacks, and interrupts handle the process and sequential function calls and prioritize immediate calls.
+
+    ADC converts analog voice signals from audio microphones to digital signals for transmission over Ethernet. 
+
+    SPI transfers data between the audio board and the microcontroller at 8000 samples per second.
+
+    PWM controls the power to the audio speaker.
+
+    UDP creates packets and controls the frame rate for audio transmission and receiving over Ethernet.
